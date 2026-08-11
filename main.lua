@@ -288,9 +288,10 @@ MovementGroup:AddToggle("AntiAFK", {
 })
 
 MovementGroup:AddButton({
-    Text = "Load Fly GUI",
+    Text = "Load SuneHub Fly",
     Func = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SuneHub/SuneHub.Dang.Cap.Lua/refs/heads/main/SuneHub.Fly.lua"))()
+            
     end,
 })
 
